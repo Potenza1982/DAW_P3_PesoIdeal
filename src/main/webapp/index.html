@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Peso Ideal</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Formulario para ingresar peso y altura -->
+    <h1>Ingrese su peso y altura</h1>
+    <form action="ServletArray" method="post">
+        <!-- Campo para la altura en metros -->
+        Altura en metros: <input type="text" name="altura" placeholder="0.00" required />
+        <br />
+        <!-- Campo para el peso en kilogramos -->
+        Peso en kilogramos: <input type="text" name="peso" placeholder="0" required />
+        <br />
+        <!-- Mensaje de ayuda para el formato de entrada -->
+        <p>Por favor, ingrese la altura y el peso en el formato correcto. Por ejemplo: Altura: 1.82, Peso: 80</p>
+        <!-- Botones para enviar y limpiar el formulario -->
+        <input type="submit" value="Aceptar" />
+        <input type="reset" value="Limpiar" />
+    </form>
+
+    <!-- Sección para mostrar el resultado -->
+    <h1>¡¡¡ A continuación podrás ver su resultado !!!</h1>
+</body>
+
+</html>
